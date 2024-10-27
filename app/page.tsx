@@ -25,11 +25,11 @@ const ExampleJsx = () => {
     <article className="prose-m-none">
       <h1>
         <Balancer>
-          Welcome to News Gossip website, Home of latest news and Gossip
+          Welcome to Prime Gossip website, Home of latest news and Gossip
         </Balancer>
       </h1>
       <p>
-        Welcome to gossipMedia, your top source for the hottest celebrity gossip, exclusive scoops, and trending entertainment news! We bring you the latest on Hollywood&apos;s biggest stars, TV drama, viral events, and style moments that keep everyone talking. At gossipMedia, we dive deep into the stories that shape pop culture, from relationship revelations to behind-the-scenes buzz. Whether you&apos;re here for breaking news or just a daily dose of celebrity life, gossipMedia is where you&apos;ll find the stories you can&apos;t miss. Get ready to be in-the-know on all things entertainment!
+        Welcome to Prime Gossip, your top source for the hottest celebrity gossip, exclusive scoops, and trending entertainment news! We bring you the latest on Hollywood&apos;s biggest stars, TV drama, viral events, and style moments that keep everyone talking. At Prime Gossip, we dive deep into the stories that shape pop culture, from relationship revelations to behind-the-scenes buzz. Whether you&apos;re here for breaking news or just a daily dose of celebrity life, Prime Gossip is where you&apos;ll find the stories you can&apos;t miss. Get ready to be in-the-know on all things entertainment!
       </p>
       <div className="grid md:grid-cols-3 gap-4 mt-6 not-prose">
         <Link

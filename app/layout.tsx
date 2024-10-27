@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title: "News Gossip",
   description:
     "News Gossip Agency.",
-  metadataBase: new URL("https://wp.9d8.dev"),
+  metadataBase: new URL("http://www.primegossip.news"),
 };
 
 // Revalidate content every hour
@@ -81,7 +81,7 @@ const Nav = ({ className, children, id }: NavProps) => {
           className="hover:opacity-75 transition-all flex gap-2 items-center"
           href="/"
         >
-          <h2 className="sr-only">Gossip Media</h2>
+          <h2 className="sr-only">Prime Gossip</h2>
           <Image
             src={Logo}
             alt="Logo"
@@ -159,7 +159,7 @@ const Footer = () => {
         <Container className="border-t not-prose flex flex-col md:flex-row md:gap-2 gap-6 justify-between md:items-center">
           <ThemeToggle />
           <p className="text-muted-foreground">
-            © <a href="https://9d8.dev">9d8</a>. All rights reserved.
+            © <a href="http://www.primegossip.news">Prime Gossip</a>. All rights reserved.
             2024-present.
           </p>
         </Container>
