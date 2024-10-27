@@ -26,9 +26,9 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "WordPress & Next.js Starter by 9d8",
+  title: "News Gossip",
   description:
-    "A starter template for Next.js with WordPress as a headless CMS.",
+    "News Gossip Agency.",
   metadataBase: new URL("https://wp.9d8.dev"),
 };
 
@@ -81,7 +81,7 @@ const Nav = ({ className, children, id }: NavProps) => {
           className="hover:opacity-75 transition-all flex gap-2 items-center"
           href="/"
         >
-          <h2 className="sr-only">next-wp starter</h2>
+          <h2 className="sr-only">Gossip Media</h2>
           <Image
             src={Logo}
             alt="Logo"
@@ -102,7 +102,7 @@ const Nav = ({ className, children, id }: NavProps) => {
             ))}
           </div>
           <Button asChild className="hidden sm:flex">
-            <Link href="https://github.com/9d8dev/next-wp">Get Started</Link>
+            <Link href="">Get Started</Link>
           </Button>
           <MobileNav />
         </div>

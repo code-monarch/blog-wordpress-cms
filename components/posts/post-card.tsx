@@ -34,7 +34,7 @@ export default async function PostCard({ post }: { post: Post }) {
             className="h-full w-full object-cover"
             src={media.source_url}
             alt={post.title.rendered}
-            width={400}
+            width={200}
             height={200}
           />
         </div>
