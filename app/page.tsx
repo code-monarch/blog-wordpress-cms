@@ -40,7 +40,7 @@ const ExampleJsx = () => {
           <span>
             Posts{" "}
             <span className="block text-sm text-muted-foreground">
-              All posts from your WordPress
+              Explore all our latest posts
             </span>
           </span>
         </Link>
@@ -52,7 +52,7 @@ const ExampleJsx = () => {
           <span>
             Pages{" "}
             <span className="block text-sm text-muted-foreground">
-              Custom pages from your WordPress
+              Explore our curated pages
             </span>
           </span>
         </Link>
@@ -64,7 +64,7 @@ const ExampleJsx = () => {
           <span>
             Authors{" "}
             <span className="block text-sm text-muted-foreground">
-              List of the authors from your WordPress
+              Explore our talented team of authors
             </span>
           </span>
         </Link>
@@ -76,7 +76,7 @@ const ExampleJsx = () => {
           <span>
             Tags{" "}
             <span className="block text-sm text-muted-foreground">
-              Content by tags from your WordPress
+              Discover content by tags
             </span>
           </span>
         </Link>
@@ -88,7 +88,7 @@ const ExampleJsx = () => {
           <span>
             Categories{" "}
             <span className="block text-sm text-muted-foreground">
-              Categories from your WordPress
+              Explore our curated categories
             </span>
           </span>
         </Link>

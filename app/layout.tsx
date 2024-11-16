@@ -13,7 +13,7 @@ import { mainMenu, contentMenu } from "@/menu.config";
 import { Section, Container } from "@/components/craft";
 import Balancer from "react-wrap-balancer";
 
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/brand-logo-dark.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -28,7 +28,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "News Gossip",
   description:
-    "News Gossip Agency.",
+    "Prime Gossip News.",
   metadataBase: new URL("http://www.primegossip.news"),
 };
 
@@ -85,8 +85,8 @@ const Nav = ({ className, children, id }: NavProps) => {
           <Image
             src={Logo}
             alt="Logo"
-            className="dark:invert"
-            width={84}
+            // className="dark:invert"
+            width={30}
             height={30.54}
           ></Image>
         </Link>
@@ -101,9 +101,10 @@ const Nav = ({ className, children, id }: NavProps) => {
               </Button>
             ))}
           </div>
-          <Button asChild className="hidden sm:flex">
+          {/* <Button asChild className="hidden sm:flex">
             <Link href="">Get Started</Link>
-          </Button>
+          </Button> */}
+          <ThemeToggle />
           <MobileNav />
         </div>
       </div>
@@ -118,7 +119,7 @@ const Footer = () => {
         <Container className="grid md:grid-cols-[1.5fr_0.5fr_0.5fr] gap-12">
           <div className="flex flex-col gap-6 not-prose">
             <Link href="/">
-              <h3 className="sr-only">brijr/components</h3>
+              <h3 className="sr-only">Prime gossip logo</h3>
               <Image
                 src={Logo}
                 alt="Logo"
@@ -159,7 +160,7 @@ const Footer = () => {
         <Container className="border-t not-prose flex flex-col md:flex-row md:gap-2 gap-6 justify-between md:items-center">
           <ThemeToggle />
           <p className="text-muted-foreground">
-            © <a href="http://www.primegossip.news">Prime Gossip</a>. All rights reserved.
+            © <a href="http://www.primegossip.news">Prime Gossip News</a>. All rights reserved.
             2024-present.
           </p>
         </Container>
